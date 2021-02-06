@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import avatar from './images/avatar.jpg';
 
 const App = () => {
   return (
     <div className="ui container comments">
       <div className="comment">
         <a href="/" className="avatar">
-          <img alt="avatar" />
+          <img alt="avatar" src={avatar} />
         </a>
         <div className="content">
           <a href="/" className="author">
